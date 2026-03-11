@@ -16,6 +16,23 @@
     $student_height=5.2;
     $is_active=TRUE;
     $student_friends=array("Hammad","Jazil","Fakir","Aysha");
+    $student_attend=null;
+   
+    class Student {
+    public $name;
+    public $age;
+    public $grade;
+}
+
+$student1 = new Student();
+
+$student1->name = "Ali";
+$student1->age = 20;
+$student1->grade = "A";
+
+
+
+
 
     echo "<h1> Students Details:</h1><br>";
     echo"Student name: $student_name<br>";
@@ -26,6 +43,9 @@
     echo" $student_friends[1]<br>";
     echo" $student_friends[2]<br>";
     echo" $student_friends[3] <br>";
+    var_dump( $student_attend);
+    echo "<br>";
+    var_dump($student1);
 
 
     
